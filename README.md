@@ -23,13 +23,13 @@ GDT analizi aynı 543 kişi üzerinde beş dış / üç iç kat kullanır. R M3 
 ## Branch ve teslim düzeni
 
 - `main`: önceki ödevler ve [güncel final teslim ZIP'i](https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7/blob/main/releases/Group7_OpenPlay_Final.zip).
-- `codex/group7-openplay-final`: çalıştırılabilir kaynak kod, model, testler ve final raporu.
+- `problematic-gaming-early-warning`: çalıştırılabilir kaynak kod, model, testler ve final raporu.
 - Önceki ödevler ve proje sunumu bu branch'te `docs/coursework/` altında korunur. Final bulgular için `docs/final/Group7_Final_Report.pdf` kullanılır.
 
 Kaynak branch'ini sıfırdan indirmek için:
 
 ```bash
-git clone --branch codex/group7-openplay-final https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7.git
+git clone --branch problematic-gaming-early-warning https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7.git
 cd SIC_AI_18_Capstone_Group_7
 ```
 
