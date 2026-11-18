@@ -1,0 +1,45 @@
+{
+  "commit": "eb0a68c1a7ca1fad54e57a1f89b9d5450f8be840",
+  "files": {
+    "data/clean/survey_biweekly.csv.gz": {
+      "sha256": "b127673ab5b7a21f1c2310b40c92bd0d37487ec5577712b1740f43181bf5e5ac",
+      "bytes": 1049948,
+      "url": "https://raw.githubusercontent.com/digital-wellbeing/open-play/eb0a68c1a7ca1fad54e57a1f89b9d5450f8be840/data/clean/survey_biweekly.csv.gz"
+    },
+    "data/clean/survey_intake.csv.gz": {
+      "sha256": "334cc7ba5ee89c0cf9ffdd04fdb4a6c3bdba793a83015880d62e772de8a26ca7",
+      "bytes": 1282600,
+      "url": "https://raw.githubusercontent.com/digital-wellbeing/open-play/eb0a68c1a7ca1fad54e57a1f89b9d5450f8be840/data/clean/survey_intake.csv.gz"
+    },
+    "data/clean/steam.csv.gz": {
+      "sha256": "01912c313abe761025e1b28a5989051d2b22eef1d8395f44c039c941305d4300",
+      "bytes": 31704753,
+      "url": "https://raw.githubusercontent.com/digital-wellbeing/open-play/eb0a68c1a7ca1fad54e57a1f89b9d5450f8be840/data/clean/steam.csv.gz"
+    },
+    "codebook.xlsx": {
+      "sha256": "8b3a44a1a8bdae09af086fc19d31727f4a26518a703d1764277f9eb754d8be6f",
+      "bytes": 199830,
+      "url": "https://raw.githubusercontent.com/digital-wellbeing/open-play/eb0a68c1a7ca1fad54e57a1f89b9d5450f8be840/codebook.xlsx"
+    },
+    "data-process.qmd": {
+      "sha256": "cd58a8aa77b22bc8807a7b7f64b78e272dd924b55e3ed5d77da73cef51728b27",
+      "bytes": 21046,
+      "url": "https://raw.githubusercontent.com/digital-wellbeing/open-play/eb0a68c1a7ca1fad54e57a1f89b9d5450f8be840/data-process.qmd"
+    },
+    "index.qmd": {
+      "sha256": "68f901c3c770d8635a317ad93945c60744ea5cc00a68007935d36dabe8a25763",
+      "bytes": 124108,
+      "url": "https://raw.githubusercontent.com/digital-wellbeing/open-play/eb0a68c1a7ca1fad54e57a1f89b9d5450f8be840/index.qmd"
+    },
+    "LICENSE": {
+      "sha256": "fc9fe70c62e5a65b0dca4a34d5c0c45a08d689f08331ee92c2c030d4ab0e1b61",
+      "bytes": 7733,
+      "url": "https://raw.githubusercontent.com/digital-wellbeing/open-play/eb0a68c1a7ca1fad54e57a1f89b9d5450f8be840/LICENSE"
+    },
+    "R/helpers.R": {
+      "sha256": "c8b633bd6f30821b346efdfab2a4c700d8feae0ff8fee96c8ad922a7e21e1bb3",
+      "bytes": 14078,
+      "url": "https://raw.githubusercontent.com/digital-wellbeing/open-play/eb0a68c1a7ca1fad54e57a1f89b9d5450f8be840/R/helpers.R"
+    }
+  }
+}

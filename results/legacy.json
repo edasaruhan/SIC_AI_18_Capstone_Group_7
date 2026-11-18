@@ -1,0 +1,300 @@
+{
+  "analysis": "legacy",
+  "rows": 543,
+  "people": 543,
+  "grouped_by_person": false,
+  "outer": "KFold(5, shuffle=True, random_state=42)",
+  "inner": "KFold(3, shuffle=True, random_state=43)",
+  "metrics": {
+    "M1": {
+      "MAE": 1.8846355324771633,
+      "RMSE": 2.4057491506000415,
+      "R2": 0.4162363384669896
+    },
+    "M2": {
+      "MAE": 1.875727876193979,
+      "RMSE": 2.3851537787474517,
+      "R2": 0.4261886367555435
+    },
+    "M3": {
+      "MAE": 1.8778363915419767,
+      "RMSE": 2.3893007494250273,
+      "R2": 0.424191576810827
+    },
+    "M3_GB": {
+      "MAE": 1.9167737197664456,
+      "RMSE": 2.417076727948812,
+      "R2": 0.4107260416390711
+    },
+    "R_M2": {
+      "MAE": 1.8756867074080448,
+      "RMSE": 2.385154671117963,
+      "R2": 0.4261882073891522
+    },
+    "R_M3": {
+      "MAE": 1.877818131067891,
+      "RMSE": 2.389339264752305,
+      "R2": 0.4241730126944233
+    },
+    "R_EN": {
+      "MAE": 1.8836555650663622,
+      "RMSE": 2.3891845237338014,
+      "R2": 0.4242475949611484
+    },
+    "R_GB": {
+      "MAE": 1.9157512378953514,
+      "RMSE": 2.423879237370678,
+      "R2": 0.4074045232653263
+    },
+    "M0": {
+      "MAE": 2.103130755064457,
+      "RMSE": 2.830379784367622,
+      "R2": 0.19197313110967584
+    },
+    "R_SELECT": {
+      "MAE": 1.902630905355956,
+      "RMSE": 2.4197971359839694,
+      "R2": 0.409398845266743
+    }
+  },
+  "paired_uncertainty": {
+    "R_M3_minus_R_M2": {
+      "difference_MAE": 0.0021314236598462036,
+      "CI95": [
+        -0.01593448741900122,
+        0.02015014078295585
+      ],
+      "resamples": 2000,
+      "seed": 42,
+      "unit": "person",
+      "limitation": "Conditional interval from fixed OOF errors; does not refit models or capture training/selection/prior-analysis uncertainty."
+    },
+    "M3_minus_M2": {
+      "difference_MAE": 0.002108515347997405,
+      "CI95": [
+        -0.01589981131522028,
+        0.02009797959062204
+      ],
+      "resamples": 2000,
+      "seed": 42,
+      "unit": "person",
+      "limitation": "Conditional interval from fixed OOF errors; does not refit models or capture training/selection/prior-analysis uncertainty."
+    },
+    "R_SELECT_minus_M2": {
+      "difference_MAE": 0.02690302916197669,
+      "CI95": [
+        0.005012245902019461,
+        0.05003712327583527
+      ],
+      "resamples": 2000,
+      "seed": 42,
+      "unit": "person",
+      "limitation": "Conditional interval from fixed OOF errors; does not refit models or capture training/selection/prior-analysis uncertainty."
+    }
+  },
+  "validation": "Exploratory internal nested CV. Cohort and previous results already inspected; no external or untouched test set.",
+  "target": "wave 6 GDT total (4 to 20)",
+  "warnings": [],
+  "reference_comparison": {
+    "M0": {
+      "MAE": {
+        "reference": 2.1031,
+        "actual": 2.103130755064457,
+        "delta": 3.075506445693321e-05,
+        "matches_4dp": true
+      },
+      "RMSE": {
+        "reference": 2.8304,
+        "actual": 2.830379784367622,
+        "delta": -2.021563237786239e-05,
+        "matches_4dp": true
+      },
+      "R2": {
+        "reference": 0.192,
+        "actual": 0.19197313110967584,
+        "delta": -2.6868890324160954e-05,
+        "matches_4dp": true
+      }
+    },
+    "M1": {
+      "MAE": {
+        "reference": 1.8846,
+        "actual": 1.8846355324771633,
+        "delta": 3.5532477163258136e-05,
+        "matches_4dp": true
+      },
+      "RMSE": {
+        "reference": 2.4057,
+        "actual": 2.4057491506000415,
+        "delta": 4.915060004151428e-05,
+        "matches_4dp": true
+      },
+      "R2": {
+        "reference": 0.4162,
+        "actual": 0.4162363384669896,
+        "delta": 3.633846698958276e-05,
+        "matches_4dp": true
+      }
+    },
+    "M2": {
+      "MAE": {
+        "reference": 1.8757,
+        "actual": 1.875727876193979,
+        "delta": 2.787619397914831e-05,
+        "matches_4dp": true
+      },
+      "RMSE": {
+        "reference": 2.3852,
+        "actual": 2.3851537787474517,
+        "delta": -4.622125254849507e-05,
+        "matches_4dp": true
+      },
+      "R2": {
+        "reference": 0.4262,
+        "actual": 0.4261886367555435,
+        "delta": -1.1363244456497057e-05,
+        "matches_4dp": true
+      }
+    },
+    "M3": {
+      "MAE": {
+        "reference": 1.8778,
+        "actual": 1.8778363915419767,
+        "delta": 3.639154197676575e-05,
+        "matches_4dp": true
+      },
+      "RMSE": {
+        "reference": 2.3893,
+        "actual": 2.3893007494250273,
+        "delta": 7.494250273687442e-07,
+        "matches_4dp": true
+      },
+      "R2": {
+        "reference": 0.4242,
+        "actual": 0.424191576810827,
+        "delta": -8.423189173045742e-06,
+        "matches_4dp": true
+      }
+    },
+    "M3_GB": {
+      "MAE": {
+        "reference": 1.9168,
+        "actual": 1.9167737197664456,
+        "delta": -2.62802335544432e-05,
+        "matches_4dp": true
+      },
+      "RMSE": {
+        "reference": 2.4171,
+        "actual": 2.417076727948812,
+        "delta": -2.3272051187905873e-05,
+        "matches_4dp": true
+      },
+      "R2": {
+        "reference": 0.4107,
+        "actual": 0.4107260416390711,
+        "delta": 2.6041639071106015e-05,
+        "matches_4dp": true
+      }
+    },
+    "R_M2": {
+      "MAE": {
+        "reference": 1.8757,
+        "actual": 1.8756867074080448,
+        "delta": -1.3292591955149646e-05,
+        "matches_4dp": true
+      },
+      "RMSE": {
+        "reference": 2.3852,
+        "actual": 2.385154671117963,
+        "delta": -4.5328882037232177e-05,
+        "matches_4dp": true
+      },
+      "R2": {
+        "reference": 0.4262,
+        "actual": 0.4261882073891522,
+        "delta": -1.1792610847827234e-05,
+        "matches_4dp": true
+      }
+    },
+    "R_M3": {
+      "MAE": {
+        "reference": 1.8778,
+        "actual": 1.877818131067891,
+        "delta": 1.813106789105845e-05,
+        "matches_4dp": true
+      },
+      "RMSE": {
+        "reference": 2.3893,
+        "actual": 2.389339264752305,
+        "delta": 3.926475230509041e-05,
+        "matches_4dp": true
+      },
+      "R2": {
+        "reference": 0.4242,
+        "actual": 0.4241730126944233,
+        "delta": -2.698730557670892e-05,
+        "matches_4dp": true
+      }
+    },
+    "R_EN": {
+      "MAE": {
+        "reference": 1.8837,
+        "actual": 1.8836555650663622,
+        "delta": -4.443493363770479e-05,
+        "matches_4dp": true
+      },
+      "RMSE": {
+        "reference": 2.3892,
+        "actual": 2.3891845237338014,
+        "delta": -1.5476266198799493e-05,
+        "matches_4dp": true
+      },
+      "R2": {
+        "reference": 0.4242,
+        "actual": 0.4242475949611484,
+        "delta": 4.7594961148367254e-05,
+        "matches_4dp": true
+      }
+    },
+    "R_GB": {
+      "MAE": {
+        "reference": 1.9158,
+        "actual": 1.9157512378953514,
+        "delta": -4.876210464854758e-05,
+        "matches_4dp": true
+      },
+      "RMSE": {
+        "reference": 2.4239,
+        "actual": 2.423879237370678,
+        "delta": -2.0762629322046422e-05,
+        "matches_4dp": true
+      },
+      "R2": {
+        "reference": 0.4074,
+        "actual": 0.4074045232653263,
+        "delta": 4.5232653262949896e-06,
+        "matches_4dp": true
+      }
+    },
+    "R_SELECT": {
+      "MAE": {
+        "reference": 1.9026,
+        "actual": 1.902630905355956,
+        "delta": 3.090535595595689e-05,
+        "matches_4dp": true
+      },
+      "RMSE": {
+        "reference": 2.4198,
+        "actual": 2.4197971359839694,
+        "delta": -2.8640160305570816e-06,
+        "matches_4dp": true
+      },
+      "R2": {
+        "reference": 0.4094,
+        "actual": 0.409398845266743,
+        "delta": -1.1547332570138735e-06,
+        "matches_4dp": true
+      }
+    }
+  }
+}

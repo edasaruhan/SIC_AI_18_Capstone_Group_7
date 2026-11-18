@@ -1,0 +1,99 @@
+{
+  "survey": {
+    "rows": 6844,
+    "people": 1948,
+    "duplicate_person_wave": 0,
+    "intake_rows": 33046,
+    "intake_duplicate_pid": 0,
+    "unmatched_intake_people": 108,
+    "unmatched_intake_rows": 173,
+    "missing_complete_gdt_by_wave": {
+      "1": 193,
+      "2": 1188,
+      "3": 1105,
+      "4": 964,
+      "5": 879,
+      "6": 10,
+      "7": 6
+    },
+    "unparseable_dates": 0,
+    "off_schedule_rows": 11,
+    "attrition": {
+      "eligible_valid_baseline": 1598,
+      "completer_baseline_mean": 8.43943661971831,
+      "noncompleter_baseline_mean": 8.88400900900901
+    }
+  },
+  "flow": {
+    "both_gdt_before_eligibility": 730,
+    "matched_to_intake": 723,
+    "eligible_gdt": 710,
+    "legacy_steam_people": 543,
+    "strict_steam_people": 543,
+    "eligible_without_legacy_record": 167,
+    "legacy_records": 23611,
+    "strict_records": 23603
+  },
+  "gdt_change": {
+    "increased": 199,
+    "same": 136,
+    "decreased": 375,
+    "baseline_mean": 8.43943661971831,
+    "target_mean": 7.633802816901408
+  },
+  "steam": {
+    "rows": 837181,
+    "people": 2805,
+    "negative_minutes": 0,
+    "nonfinite_minutes": 0,
+    "nonpositive_duration": 0,
+    "unparseable_timestamps": {
+      "approximate_session_start": 0,
+      "approximate_session_end": 0,
+      "datetime_hour_start": 0,
+      "timestamp": 0,
+      "approximate_session_end_original": 0
+    },
+    "duplicate_person_title_start": 5,
+    "duplicate_all_selected_fields": 0,
+    "individual_rows_minutes_gt60": 141868,
+    "start_hour_sums_gt60": 169683,
+    "start_hour_sum_max": 461.0919878296146,
+    "utc_start_day_sums_gt1440": 0,
+    "utc_start_day_sum_max": 1320.0,
+    "approximate_interval_overlap_rows": 199635,
+    "approximate_interval_overlap_people": 2616,
+    "corrected_duration_discrepancy_gt1sec": 0,
+    "max_duration_discrepancy_minutes": 0.016666279228942926,
+    "legacy_early_start_hour_gt60": 4742,
+    "legacy_early_utc_start_day_gt1440": 0,
+    "legacy_end_after_cutoff": 8,
+    "legacy_original_end_after_cutoff": 8,
+    "legacy_record_timestamp_after_cutoff": 8,
+    "legacy_start_before_window": 0,
+    "approximate_allocated_person_hours": 1013540,
+    "approximate_allocated_hours_gt60": 168832,
+    "approximate_allocated_hour_max": 134.3698542001227,
+    "approximate_allocated_utc_days_gt1440": 0,
+    "approximate_allocated_utc_day_max": 1320.0,
+    "strict_study_day_max": 1369.071716098076,
+    "strict_people_with_study_day_gt1440": 0
+  },
+  "secondary": {
+    "consecutive_complete_routine_pairs": 4372,
+    "people": 1206,
+    "pairs_gap_ge14": 2775,
+    "people_gap_ge14": 1161,
+    "strict_steam_pairs": 2093,
+    "strict_steam_people": 935,
+    "strict_records": 88345,
+    "gap_min_days": 14.000011574074074,
+    "clean_value_min": -3.0,
+    "clean_value_max": 3.0
+  },
+  "coverage": {
+    "validated_observation_denominator": false,
+    "reason": "Clean Steam file contains positive approximate-play records, not polling/visibility observations. The provider index uses a separate raw account-linking file plus fallback assumptions. Account visibility would not establish active-play observability. No 80% coverage or true-zero-play claims are made."
+  },
+  "interpretation": "Starting-hour sums above 60 are allocation diagnostics, not automatically invalid hours: provider collapses scaled hourly pieces back to approximate records. Intervals can overlap and are not exact sessions. No additional outlier clipping is applied. Strict sensitivity requires whole approximate records and source timestamps within the window and allocates their minutes across elapsed days; it cannot reconstruct the original hourly correction. Prior metrics were already seen; this is exploratory, not preregistered."
+}

@@ -1,0 +1,62 @@
+{
+  "artifact": "research_model.joblib",
+  "sha256": "6034c69fcaa62b9791d26baaf271a29c5270bfa577853c8062b46f7a09bf682f",
+  "features": [
+    "baseline",
+    "weekly_hours"
+  ],
+  "data_commit": "eb0a68c1a7ca1fad54e57a1f89b9d5450f8be840",
+  "timing_mode": "strict",
+  "model_version": "gdt-strict-2",
+  "family": "R_M2",
+  "parameters": {
+    "reg__alpha": 0.001
+  },
+  "training_people": 543,
+  "full_data_inner_MAE": {
+    "R_M2": 1.9021336731432221,
+    "R_M3": 1.9110070544194866,
+    "R_EN": 1.9111115951861526,
+    "R_GB": 1.9103223516324424
+  },
+  "refit_is_not_test": true,
+  "synthetic_8_12": 7.343695858999266,
+  "save_load_difference": 0.0,
+  "legacy_reference_7_3435_difference": 0.0001958589992661075,
+  "training_ranges": {
+    "baseline": [
+      4.0,
+      20.0
+    ],
+    "weekly_hours": [
+      0.0333333333333333,
+      88.5760280352837
+    ]
+  },
+  "versions": {
+    "scikit-learn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "joblib": "1.5.3"
+  },
+  "linear_model": {
+    "scaled_intercept": 7.791896869244936,
+    "scaled_coefficients": {
+      "baseline": 1.963505544161043,
+      "weekly_hours": 0.34506549970062356
+    },
+    "means": {
+      "baseline": 8.624309392265193,
+      "weekly_hours": 15.037450868878208
+    },
+    "scales": {
+      "baseline": 3.2905241249100854,
+      "weekly_hours": 13.851894611555242
+    },
+    "raw_unit_coefficients": {
+      "baseline": 0.5967151340106636,
+      "weekly_hours": 0.024911068801575356
+    },
+    "raw_unit_intercept": 2.2710419612950536
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "run_at_utc": "2026-11-18T20:19:57.768105+00:00",
+  "command": "python -m pytest -q --junitxml=tmp/test_results.xml",
+  "passed": 13,
+  "failed": 0,
+  "tests": [
+    "test_cutoff_requires_entire_record_and_known_timestamp",
+    "test_elapsed_day_allocation_conserves_minutes_across_week_boundary",
+    "test_absence_never_creates_a_nonplayer",
+    "test_intake_and_labels_reproduce_pinned_cohort",
+    "test_routine_sign_and_actual_date_gap",
+    "test_skipped_wave_is_not_next_survey_pair",
+    "test_repeated_people_are_separate_in_every_inner_split",
+    "test_preprocessing_uses_only_training_rows_and_shap_is_additive",
+    "test_gdt_and_change_errors_agree_but_r_squared_need_not",
+    "test_artifact_tampering_fails_before_loading",
+    "test_final_real_model_and_scenario_changes",
+    "test_saved_results_match_original_report_and_final_people",
+    "test_dashboard_loads_real_results_and_recalculates_scenarios"
+  ],
+  "scope": "Data/timing/group/transform/serialization invariants and Streamlit AppTest; not external predictive validation."
+}

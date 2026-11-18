@@ -1,0 +1,70 @@
+{
+  "analysis": "secondary",
+  "rows": 2093,
+  "people": 935,
+  "grouped_by_person": true,
+  "outer": "GroupKFold(5)",
+  "inner": "GroupKFold(3)",
+  "metrics": {
+    "R_M1": {
+      "MAE": 0.7629286333851818,
+      "RMSE": 1.0261075351498954,
+      "R2": 0.21304514070387404
+    },
+    "R_M2": {
+      "MAE": 0.7584781341110609,
+      "RMSE": 1.0251531719770264,
+      "R2": 0.21450832355036709
+    },
+    "R_M3": {
+      "MAE": 0.7602196303442448,
+      "RMSE": 1.0277065930318712,
+      "R2": 0.21059049176152556
+    },
+    "R_EN": {
+      "MAE": 0.7603697244331634,
+      "RMSE": 1.0272345043866569,
+      "R2": 0.2113155735551231
+    },
+    "R_GB": {
+      "MAE": 0.7515019032127981,
+      "RMSE": 1.0320705341179965,
+      "R2": 0.2038721332115011
+    },
+    "M0": {
+      "MAE": 0.7754419493549929,
+      "RMSE": 1.2057752411435565,
+      "R2": -0.08666778364780559
+    },
+    "R_SELECT": {
+      "MAE": 0.7515019032127981,
+      "RMSE": 1.0320705341179965,
+      "R2": 0.2038721332115011
+    }
+  },
+  "paired_uncertainty": {
+    "R_M3_minus_R_M2": {
+      "difference_MAE": 0.0017414962331839523,
+      "CI95": [
+        -0.0004931451226149419,
+        0.0040013241809758356
+      ],
+      "resamples": 2000,
+      "seed": 42,
+      "unit": "person cluster with all transitions",
+      "limitation": "Conditional interval from fixed OOF errors; does not refit models or capture training/selection/prior-analysis uncertainty."
+    }
+  },
+  "validation": "Exploratory internal nested CV. Cohort and previous results already inspected; no external or untouched test set.",
+  "target": "next-survey sign-reversed routine interference (-3 to +3)",
+  "warnings": [],
+  "person_balanced_MAE": {
+    "R_M1": 0.762007655895799,
+    "R_M2": 0.7579210707158501,
+    "R_M3": 0.75939943260417,
+    "R_EN": 0.7594698518548918,
+    "R_GB": 0.7488657658999932,
+    "M0": 0.7831550802139038,
+    "R_SELECT": 0.7488657658999932
+  }
+}

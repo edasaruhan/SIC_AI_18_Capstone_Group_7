@@ -1,0 +1,109 @@
+{
+  "run_at_utc": "2026-11-18T20:35:46.862572+00:00",
+  "checks": [
+    {
+      "check": "authenticated readiness",
+      "passed": true
+    },
+    {
+      "check": "missing key /health",
+      "passed": true
+    },
+    {
+      "check": "wrong key /health",
+      "passed": true
+    },
+    {
+      "check": "missing key /metrics",
+      "passed": true
+    },
+    {
+      "check": "wrong key /metrics",
+      "passed": true
+    },
+    {
+      "check": "missing key /predict",
+      "passed": true
+    },
+    {
+      "check": "wrong key /predict",
+      "passed": true
+    },
+    {
+      "check": "real-model inference example_a",
+      "passed": true
+    },
+    {
+      "check": "no-store and request ID example_a",
+      "passed": true
+    },
+    {
+      "check": "real-model inference example_b",
+      "passed": true
+    },
+    {
+      "check": "no-store and request ID example_b",
+      "passed": true
+    },
+    {
+      "check": "real-model inference example_c",
+      "passed": true
+    },
+    {
+      "check": "no-store and request ID example_c",
+      "passed": true
+    },
+    {
+      "check": "unknown scenario",
+      "passed": true
+    },
+    {
+      "check": "missing field",
+      "passed": true
+    },
+    {
+      "check": "extra field",
+      "passed": true
+    },
+    {
+      "check": "wrong field type",
+      "passed": true
+    },
+    {
+      "check": "authenticated counters",
+      "passed": true
+    },
+    {
+      "check": "disabled /docs",
+      "passed": true
+    },
+    {
+      "check": "disabled /redoc",
+      "passed": true
+    },
+    {
+      "check": "disabled /openapi.json",
+      "passed": true
+    },
+    {
+      "check": "not-ready model returns 503",
+      "passed": true
+    },
+    {
+      "check": "short key refuses initialization",
+      "passed": true
+    },
+    {
+      "check": "live loopback readiness",
+      "passed": true
+    },
+    {
+      "check": "live loopback prediction equals direct model",
+      "passed": true
+    }
+  ],
+  "passed": 25,
+  "total": 25,
+  "all_passed": true,
+  "scope": "Functional checks, one loopback process. No cloud, HTTPS, uptime, load or penetration test."
+}

@@ -1,0 +1,18 @@
+{
+  "ordered_features": [
+    "baseline",
+    "weekly_hours"
+  ],
+  "type": "finite numeric",
+  "training_ranges": {
+    "baseline": [
+      4.0,
+      20.0
+    ],
+    "weekly_hours": [
+      0.0333333333333333,
+      88.5760280352837
+    ]
+  },
+  "public_input": "Three fixed synthetic scenario identifiers only; no arbitrary participant features."
+}

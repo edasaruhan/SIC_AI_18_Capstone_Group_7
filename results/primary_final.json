@@ -1,0 +1,61 @@
+{
+  "analysis": "primary_final",
+  "rows": 543,
+  "people": 543,
+  "grouped_by_person": false,
+  "outer": "KFold(5, shuffle=True, random_state=42)",
+  "inner": "KFold(3, shuffle=True, random_state=43)",
+  "metrics": {
+    "R_M1": {
+      "MAE": 1.8845767779175455,
+      "RMSE": 2.4057497205651517,
+      "R2": 0.4162360618587997
+    },
+    "R_M2": {
+      "MAE": 1.8756891743685442,
+      "RMSE": 2.3852631537762488,
+      "R2": 0.4261360094793213
+    },
+    "R_M3": {
+      "MAE": 1.878155324907725,
+      "RMSE": 2.3881232725508648,
+      "R2": 0.42475896795132206
+    },
+    "R_EN": {
+      "MAE": 1.8842641221035175,
+      "RMSE": 2.391170872823251,
+      "R2": 0.4232898450151401
+    },
+    "R_GB": {
+      "MAE": 1.9201885987657588,
+      "RMSE": 2.4251987045935874,
+      "R2": 0.4067591750012858
+    },
+    "M0": {
+      "MAE": 2.103130755064457,
+      "RMSE": 2.830379784367622,
+      "R2": 0.19197313110967584
+    },
+    "R_SELECT": {
+      "MAE": 1.9033232685213632,
+      "RMSE": 2.420975099775798,
+      "R2": 0.40882369282829245
+    }
+  },
+  "paired_uncertainty": {
+    "R_M3_minus_R_M2": {
+      "difference_MAE": 0.0024661505391809693,
+      "CI95": [
+        -0.015367967240163314,
+        0.020848712860034035
+      ],
+      "resamples": 2000,
+      "seed": 42,
+      "unit": "person",
+      "limitation": "Conditional interval from fixed OOF errors; does not refit models or capture training/selection/prior-analysis uncertainty."
+    }
+  },
+  "validation": "Exploratory internal nested CV. Cohort and previous results already inspected; no external or untouched test set.",
+  "target": "wave 6 GDT total (4 to 20)",
+  "warnings": []
+}

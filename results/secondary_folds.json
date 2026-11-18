@@ -1,0 +1,472 @@
+[
+  {
+    "fold": 1,
+    "model": "R_M1",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.750638874525848,
+    "training_MAE": 0.7493945440978795,
+    "MAE": 0.8153111919389314,
+    "RMSE": 1.1101535012808466,
+    "R2": 0.15328233508184586
+  },
+  {
+    "fold": 1,
+    "model": "R_M2",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.7461668389229693,
+    "training_MAE": 0.7443437684021466,
+    "MAE": 0.8099854138819866,
+    "RMSE": 1.1099144331478747,
+    "R2": 0.15364697189191856
+  },
+  {
+    "fold": 1,
+    "model": "R_M3",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.7444263569069839,
+    "training_MAE": 0.7420572010360047,
+    "MAE": 0.8121256590590809,
+    "RMSE": 1.1100472062467193,
+    "R2": 0.15344447045183285
+  },
+  {
+    "fold": 1,
+    "model": "R_EN",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001,
+      "reg__l1_ratio": 0.1
+    },
+    "inner_MAE": 0.7444822893237705,
+    "training_MAE": 0.7421182766069451,
+    "MAE": 0.8121010924204549,
+    "RMSE": 1.1099843837462633,
+    "R2": 0.1535402884132998
+  },
+  {
+    "fold": 1,
+    "model": "R_GB",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__learning_rate": 0.05,
+      "reg__max_depth": 1,
+      "reg__min_samples_leaf": 40
+    },
+    "inner_MAE": 0.7410084822878312,
+    "training_MAE": 0.7352272771729689,
+    "MAE": 0.7945524679796159,
+    "RMSE": 1.104137891608462,
+    "R2": 0.1624337232179791
+  },
+  {
+    "fold": 1,
+    "model": "R_SELECT",
+    "selected_family": "R_GB",
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__learning_rate": 0.05,
+      "reg__max_depth": 1,
+      "reg__min_samples_leaf": 40
+    },
+    "inner_MAE": 0.7410084822878312,
+    "MAE": 0.7945524679796159,
+    "RMSE": 1.104137891608462,
+    "R2": 0.1624337232179791
+  },
+  {
+    "fold": 2,
+    "model": "R_M1",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.7688981195861421,
+    "training_MAE": 0.7677474843783213,
+    "MAE": 0.7453799829443394,
+    "RMSE": 1.0061337571764466,
+    "R2": 0.24314009294679695
+  },
+  {
+    "fold": 2,
+    "model": "R_M2",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.7648081485945467,
+    "training_MAE": 0.7634865818274064,
+    "MAE": 0.74215845485698,
+    "RMSE": 1.0035884223224951,
+    "R2": 0.246964684038543
+  },
+  {
+    "fold": 2,
+    "model": "R_M3",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.764733692634596,
+    "training_MAE": 0.7612037133038847,
+    "MAE": 0.7438256280204615,
+    "RMSE": 1.0077952970153015,
+    "R2": 0.24063825609451373
+  },
+  {
+    "fold": 2,
+    "model": "R_EN",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001,
+      "reg__l1_ratio": 1.0
+    },
+    "inner_MAE": 0.7646708887628847,
+    "training_MAE": 0.7613969751563817,
+    "MAE": 0.7438112777100253,
+    "RMSE": 1.0076247699277014,
+    "R2": 0.24089521460877317
+  },
+  {
+    "fold": 2,
+    "model": "R_GB",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__learning_rate": 0.05,
+      "reg__max_depth": 1,
+      "reg__min_samples_leaf": 20
+    },
+    "inner_MAE": 0.7558814230072466,
+    "training_MAE": 0.7475174271510537,
+    "MAE": 0.7364958092860427,
+    "RMSE": 1.021687125372084,
+    "R2": 0.21955931636518922
+  },
+  {
+    "fold": 2,
+    "model": "R_SELECT",
+    "selected_family": "R_GB",
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__learning_rate": 0.05,
+      "reg__max_depth": 1,
+      "reg__min_samples_leaf": 20
+    },
+    "inner_MAE": 0.7558814230072466,
+    "MAE": 0.7364958092860427,
+    "RMSE": 1.021687125372084,
+    "R2": 0.21955931636518922
+  },
+  {
+    "fold": 3,
+    "model": "R_M1",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.7672345785196658,
+    "training_MAE": 0.7673261954881315,
+    "MAE": 0.7398336021191618,
+    "RMSE": 1.0041487633059032,
+    "R2": 0.2041149902570375
+  },
+  {
+    "fold": 3,
+    "model": "R_M2",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.7608546552996823,
+    "training_MAE": 0.7603448026798879,
+    "MAE": 0.7378417209150004,
+    "RMSE": 1.0065185403019778,
+    "R2": 0.20035400263056224
+  },
+  {
+    "fold": 3,
+    "model": "R_M3",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 10
+    },
+    "inner_MAE": 0.7635042502240957,
+    "training_MAE": 0.7592335797151158,
+    "MAE": 0.7364645879963261,
+    "RMSE": 1.010248702047323,
+    "R2": 0.19441603737619784
+  },
+  {
+    "fold": 3,
+    "model": "R_EN",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.01,
+      "reg__l1_ratio": 0.5
+    },
+    "inner_MAE": 0.7622134978751016,
+    "training_MAE": 0.7599333974672117,
+    "MAE": 0.7370728564485519,
+    "RMSE": 1.0087530447647293,
+    "R2": 0.19679958039270173
+  },
+  {
+    "fold": 3,
+    "model": "R_GB",
+    "train_rows": 1674,
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__learning_rate": 0.05,
+      "reg__max_depth": 1,
+      "reg__min_samples_leaf": 40
+    },
+    "inner_MAE": 0.7602150547619398,
+    "training_MAE": 0.753476540808459,
+    "MAE": 0.728086331122171,
+    "RMSE": 1.0075521291646632,
+    "R2": 0.19871085443032432
+  },
+  {
+    "fold": 3,
+    "model": "R_SELECT",
+    "selected_family": "R_GB",
+    "heldout_rows": 419,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__learning_rate": 0.05,
+      "reg__max_depth": 1,
+      "reg__min_samples_leaf": 40
+    },
+    "inner_MAE": 0.7602150547619398,
+    "MAE": 0.728086331122171,
+    "RMSE": 1.0075521291646632,
+    "R2": 0.19871085443032432
+  },
+  {
+    "fold": 4,
+    "model": "R_M1",
+    "train_rows": 1675,
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.7770753595908794,
+    "training_MAE": 0.7767076515883196,
+    "MAE": 0.7046400382135622,
+    "RMSE": 0.938397394440403,
+    "R2": 0.2421914197086007
+  },
+  {
+    "fold": 4,
+    "model": "R_M2",
+    "train_rows": 1675,
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.773983838914161,
+    "training_MAE": 0.773588820152962,
+    "MAE": 0.6987817697851914,
+    "RMSE": 0.934888661849288,
+    "R2": 0.24784782217700252
+  },
+  {
+    "fold": 4,
+    "model": "R_M3",
+    "train_rows": 1675,
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.7732270498280576,
+    "training_MAE": 0.7714715790652613,
+    "MAE": 0.7039295913922478,
+    "RMSE": 0.9388727190902232,
+    "R2": 0.24142352259551325
+  },
+  {
+    "fold": 4,
+    "model": "R_EN",
+    "train_rows": 1675,
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001,
+      "reg__l1_ratio": 0.1
+    },
+    "inner_MAE": 0.7732727224678246,
+    "training_MAE": 0.7715062670231437,
+    "MAE": 0.7039733817144248,
+    "RMSE": 0.9388919252700147,
+    "R2": 0.24139248642855582
+  },
+  {
+    "fold": 4,
+    "model": "R_GB",
+    "train_rows": 1675,
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__learning_rate": 0.03,
+      "reg__max_depth": 2,
+      "reg__min_samples_leaf": 20
+    },
+    "inner_MAE": 0.7675396704283172,
+    "training_MAE": 0.7564643906558732,
+    "MAE": 0.6931329855631755,
+    "RMSE": 0.9451336229494272,
+    "R2": 0.23127260441819364
+  },
+  {
+    "fold": 4,
+    "model": "R_SELECT",
+    "selected_family": "R_GB",
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__learning_rate": 0.03,
+      "reg__max_depth": 2,
+      "reg__min_samples_leaf": 20
+    },
+    "inner_MAE": 0.7675396704283172,
+    "MAE": 0.6931329855631755,
+    "RMSE": 0.9451336229494272,
+    "R2": 0.23127260441819364
+  },
+  {
+    "fold": 5,
+    "model": "R_M1",
+    "train_rows": 1675,
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.7518983461054818,
+    "training_MAE": 0.7505261495655952,
+    "MAE": 0.8094502682724813,
+    "RMSE": 1.0633001734555785,
+    "R2": 0.22306213050059875
+  },
+  {
+    "fold": 5,
+    "model": "R_M2",
+    "train_rows": 1675,
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.001
+    },
+    "inner_MAE": 0.7481341267146601,
+    "training_MAE": 0.7460916786557632,
+    "MAE": 0.8035884996632253,
+    "RMSE": 1.0621964361411347,
+    "R2": 0.22467426273821334
+  },
+  {
+    "fold": 5,
+    "model": "R_M3",
+    "train_rows": 1675,
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 10
+    },
+    "inner_MAE": 0.7518829644607646,
+    "training_MAE": 0.7454400820043061,
+    "MAE": 0.8047245584970237,
+    "RMSE": 1.0633553449845075,
+    "R2": 0.22298150235197445
+  },
+  {
+    "fold": 5,
+    "model": "R_EN",
+    "train_rows": 1675,
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__alpha": 0.01,
+      "reg__l1_ratio": 0.5
+    },
+    "inner_MAE": 0.7509861526769738,
+    "training_MAE": 0.7462088475934034,
+    "MAE": 0.8048616022616433,
+    "RMSE": 1.0627051600100585,
+    "R2": 0.22393142243515385
+  },
+  {
+    "fold": 5,
+    "model": "R_GB",
+    "train_rows": 1675,
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__learning_rate": 0.05,
+      "reg__max_depth": 1,
+      "reg__min_samples_leaf": 20
+    },
+    "inner_MAE": 0.7335767765627597,
+    "training_MAE": 0.7240717939191796,
+    "MAE": 0.8052308481925322,
+    "RMSE": 1.074358582210755,
+    "R2": 0.20681766082553954
+  },
+  {
+    "fold": 5,
+    "model": "R_SELECT",
+    "selected_family": "R_GB",
+    "heldout_rows": 418,
+    "heldout_people": 187,
+    "parameters": {
+      "reg__learning_rate": 0.05,
+      "reg__max_depth": 1,
+      "reg__min_samples_leaf": 20
+    },
+    "inner_MAE": 0.7335767765627597,
+    "MAE": 0.8052308481925322,
+    "RMSE": 1.074358582210755,
+    "R2": 0.20681766082553954
+  }
+]

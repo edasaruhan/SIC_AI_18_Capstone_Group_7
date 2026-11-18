@@ -1,0 +1,58 @@
+[
+  {
+    "model": "R_M2",
+    "feature": "baseline",
+    "permutation_MAE_increase": 1.0707658895495324,
+    "mean_absolute_SHAP": 1.623678134303135,
+    "max_SHAP_additivity_error": 1.77635683940025e-15
+  },
+  {
+    "model": "R_M2",
+    "feature": "weekly_hours",
+    "permutation_MAE_increase": 0.03068223243617255,
+    "mean_absolute_SHAP": 0.2648706987592423,
+    "max_SHAP_additivity_error": 1.77635683940025e-15
+  },
+  {
+    "model": "R_M3",
+    "feature": "baseline",
+    "permutation_MAE_increase": 1.0574424106242881,
+    "mean_absolute_SHAP": 1.603092497409582,
+    "max_SHAP_additivity_error": 1.77635683940025e-15
+  },
+  {
+    "model": "R_M3",
+    "feature": "weekly_hours",
+    "permutation_MAE_increase": 0.05806733184691348,
+    "mean_absolute_SHAP": 0.33258175111884725,
+    "max_SHAP_additivity_error": 1.77635683940025e-15
+  },
+  {
+    "model": "R_M3",
+    "feature": "active_days",
+    "permutation_MAE_increase": 0.005576478234960964,
+    "mean_absolute_SHAP": 0.11853665928683867,
+    "max_SHAP_additivity_error": 1.77635683940025e-15
+  },
+  {
+    "model": "R_M3",
+    "feature": "sd_minutes",
+    "permutation_MAE_increase": 0.09038870070408533,
+    "mean_absolute_SHAP": 0.4318093087117143,
+    "max_SHAP_additivity_error": 1.77635683940025e-15
+  },
+  {
+    "model": "R_M3",
+    "feature": "max_minutes",
+    "permutation_MAE_increase": 0.08053224362902475,
+    "mean_absolute_SHAP": 0.3982457135346544,
+    "max_SHAP_additivity_error": 1.77635683940025e-15
+  },
+  {
+    "model": "R_M3",
+    "feature": "week_change",
+    "permutation_MAE_increase": 0.0007315941369051659,
+    "mean_absolute_SHAP": 0.04074757563211302,
+    "max_SHAP_additivity_error": 1.77635683940025e-15
+  }
+]
