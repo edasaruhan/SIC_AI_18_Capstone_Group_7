@@ -8,10 +8,10 @@
 
 | İçerik | Konum |
 |---|---|
-| Çalıştırılabilir kaynak kod ve kurulum | [`codex/group7-openplay-final` branch'i](https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7/tree/codex/group7-openplay-final) |
+| Çalıştırılabilir kaynak kod ve kurulum | [`problematic-gaming-early-warning` branch'i](https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7/tree/problematic-gaming-early-warning) |
 | Güncel final teslim paketi | [Group7_OpenPlay_Final.zip](releases/Group7_OpenPlay_Final.zip) |
-| Final araştırma raporu | [İngilizce PDF](https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7/blob/codex/group7-openplay-final/docs/final/Group7_Final_Report.pdf) |
-| Veri kullanımı ve gizlilik | [Veri politikası](https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7/blob/codex/group7-openplay-final/docs/DATA_POLICY.md) |
+| Final araştırma raporu | [İngilizce PDF](https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7/blob/problematic-gaming-early-warning/docs/final/Group7_Final_Report.pdf) |
+| Veri kullanımı ve gizlilik | [Veri politikası](https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7/blob/problematic-gaming-early-warning/docs/DATA_POLICY.md) |
 | Önceki ödevler ve ilk proje sunumu | `main` kök dizinindeki özgün belgeler |
 
 Bu branch önceki teslimleri ve indirilebilir final paketini korur. Uygulama, model, testler, ayrıntılı README ve otomatik başlatıcılar kaynak branch'indedir. Kaynak branch'inde önceki belgeler `docs/coursework/` altında düzenlenmiştir; içerikleri değiştirilmemiştir.
@@ -21,7 +21,7 @@ Bu branch önceki teslimleri ve indirilebilir final paketini korur. Uygulama, mo
 Python **3.12** önceden kurulu olmalıdır. İlk kurulum paket indirmek için internet gerektirir.
 
 ```bash
-git clone --branch codex/group7-openplay-final https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7.git
+git clone --branch problematic-gaming-early-warning https://github.com/edasaruhan/SIC_AI_18_Capstone_Group_7.git
 cd SIC_AI_18_Capstone_Group_7
 ```
 
